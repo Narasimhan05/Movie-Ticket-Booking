@@ -38,6 +38,7 @@ A GUI-based Movie Ticket Booking System developed in Java using Swing. This proj
 ├── BookingData.csv             # Stored booking records
 ├── README.md                   # Project documentation
 └── /images                     # (Optional) Screenshots of the GUI
+```
 
 ## 📸 GUI Preview
 
