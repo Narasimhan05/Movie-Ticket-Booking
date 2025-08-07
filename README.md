@@ -28,9 +28,7 @@ A full-featured Movie Ticket Booking System built using **Java Swing**. This pro
 
 ## 🖼️ Screenshots
 
-> Add screenshots in the `/screenshots/` folder
-
-![Demo](screenshots/demo.png)
+<img width="1909" height="1028" alt="Screenshot 2025-08-07 102517" src="https://github.com/user-attachments/assets/5b061999-75b3-4074-af78-9d9862a96e39" />
 
 ---
 
