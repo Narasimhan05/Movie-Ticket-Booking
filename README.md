@@ -39,7 +39,7 @@ A GUI-based Movie Ticket Booking System developed in Java using Swing. This proj
 ├── README.md                   # Project documentation
 └── /images                     # (Optional) Screenshots of the GUI
 
-📸 GUI Preview
+## 📸 GUI Preview
 
 💡 Future Enhancements
 Integrate real payment gateway (Stripe/UPI)
