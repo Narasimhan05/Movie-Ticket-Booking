@@ -1,57 +1,70 @@
-# 🎬 Movie Ticket Booking System (Java GUI)
+# 🎟️ Movie Ticket Booking System - Java GUI
 
-A GUI-based Movie Ticket Booking System developed in Java using Swing. This project simulates real-world functionalities like seat selection, per-theatre timings, user login, booking history, right-click seat cancellation, and more!
+A full-featured Movie Ticket Booking System built using **Java Swing**. This project simulates real-world theatre operations like seat selection, booking, cancellation, payment, and user login. All data is saved locally using file I/O.
 
 ---
 
 ## 🚀 Features
 
-- 🎟️ Book movie tickets with seat selection
-- 🏢 Theatre-wise movie and timing management
-- 🪑 Seat status with color indicators (available, booked, selected)
-- 👤 Login system with booking history per user
-- 🖱️ Right-click to cancel booked seats
-- 💾 Booking data persistence (saved to file)
-- 📦 Export bookings to Excel (.csv)
-- 💰 Total price calculation for seats
-- 🖥️ Java Swing GUI – Opens in a separate window, not CLI
+- 🧑 User Authentication (login & registration)
+- 🪑 Seat Selection (clickable grid with color indicators)
+- ✅ Prevent double bookings
+- 💵 Payment simulation with total price
+- 📂 File persistence for users & bookings
+- 📋 Booking history view
+- 🗑️ Cancel seat by right-clicking
+- 🖼️ GUI using Java Swing
 
 ---
 
-## 🧠 Concepts Used
+## 🛠️ Technologies Used
 
-- Java OOPs (Classes, Objects, Inheritance)
-- File I/O and Serialization
-- Java AWT & Swing for GUI
-- HashMap & ArrayList for data handling
-- Event-driven programming
-- Exception handling
+- Java (Swing)
+- File I/O
+- OOP Principles
+- 2D Arrays, HashMap, Collections
 
 ---
 
-## 📂 Project Structure
+## 🖼️ Screenshots
 
-```bash
-📁 MovieTicketBookingSystem
-│
-├── MovieBookingSystem.java     # Main GUI application
-├── BookingData.csv             # Stored booking records
-├── README.md                   # Project documentation
-└── /images                     # (Optional) Screenshots of the GUI
-```
+> Add screenshots in the `/screenshots/` folder
 
-## 📸 GUI Preview
+![Demo](screenshots/demo.png)
 
-💡 Future Enhancements
-Integrate real payment gateway (Stripe/UPI)
+---
 
-Connect to a database (MySQL/PostgreSQL)
+## 🏃 How to Run
 
-Web-based version (Spring Boot or MERN stack)
+1. Open in **VS Code** or any IDE.
+2. Compile the code:
+    ```bash
+    javac MovieBookingSystem.java
+    ```
+3. Run the GUI:
+    ```bash
+    java MovieBookingSystem
+    ```
 
-👨‍💻 Author
-Narasimhan S
-LinkedIn • GitHub
+> `users.txt` and `bookings.txt` are generated automatically.
 
-📜 License
-This project is open-source under the MIT License.
+---
+
+## 📁 Files
+
+- `MovieBookingSystem.java` → Main application file
+- `bookings.txt` → Stores seat bookings
+- `users.txt` → Stores user credentials
+- `screenshots/` → GUI demo images
+
+---
+
+## 🤝 Contributing
+
+Pull requests welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## ✨ Author
+
+- 🔗 GitHub: [Narasimhan05](https://github.com/Narasimhan05)
